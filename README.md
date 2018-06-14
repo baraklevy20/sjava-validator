@@ -1,2 +1,2 @@
 # sjava-validator
-A validator for sJava - a simplified version of Java
+A validator for sJava - a simplified version of Java, written in Java
