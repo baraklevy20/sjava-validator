@@ -1,0 +1,5 @@
+void bar(string x) {
+	boolean y = true;
+	bar(y);
+	return;
+}

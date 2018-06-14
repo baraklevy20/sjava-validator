@@ -1,0 +1,5 @@
+void bar(char x) {
+	int y = 1;
+	bar(y);
+	return;
+}

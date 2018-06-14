@@ -1,0 +1,7 @@
+void f(final int x) {
+		return;
+}
+
+void f() {
+	return;
+}

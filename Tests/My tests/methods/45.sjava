@@ -1,0 +1,5 @@
+void bar(int x) {
+	String y = "1";
+	bar(y);
+	return;
+}

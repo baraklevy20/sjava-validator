@@ -1,0 +1,5 @@
+void bar(boolean x) {
+	boolean y = true;
+	bar(y);
+	return;
+}

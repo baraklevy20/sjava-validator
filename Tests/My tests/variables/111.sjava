@@ -1,0 +1,7 @@
+void foo() {
+	if (true) {
+		int x =3;
+	}
+	int y = x;
+	return;
+}

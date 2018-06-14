@@ -1,0 +1,5 @@
+void bar(int x) {
+	double y = 1.3;
+	bar(y);
+	return;
+}

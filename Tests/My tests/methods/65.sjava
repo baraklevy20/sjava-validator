@@ -1,0 +1,4 @@
+void bar(final int x) {
+	x = 3;
+	return;
+}

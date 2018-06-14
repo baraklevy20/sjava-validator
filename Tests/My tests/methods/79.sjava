@@ -1,0 +1,5 @@
+f();
+
+void f() {
+	return;
+}

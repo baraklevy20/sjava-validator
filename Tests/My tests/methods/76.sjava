@@ -1,0 +1,9 @@
+void f(final int x) {
+		return;
+}
+
+void g() {
+	final int x = 3;
+	f(x);
+	return;
+}
