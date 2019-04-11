@@ -2,10 +2,8 @@ barak.levy
 meirav.caspi
 
 
-
-=============================
-=      File description     =
-=============================
+File description
+=
 components/Method.java - The class represents a method
 
 components/Scope.java - The class represents a scope. Each scope contains variables,
@@ -73,9 +71,8 @@ validating a variable declaration
 
 README - this file
 
-=============================
-=          Design           =
-=============================
+Design
+=
 When we approached this project, we first thought about the questions in the object oriented design section.
 This allowed us to think about different cases that the validator may need to support in the future,
 and how we should make our code easier to maintain.
@@ -170,9 +167,8 @@ Another important regex is the one that validates method names - "[A-Za-z]+[\\w_
 It matches names that start with at least one letter,
 and then any amoount of digits, letters or an underscores.
 
-=============================
-=  Implementation details   =
-=============================
+Implementation details
+=
 * In order to access variables and methods quickly, we decided to use hash sets, where the key
 is the variable/method name and the value is the variable/method itself.
 
